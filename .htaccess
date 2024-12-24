@@ -1,0 +1,11 @@
+
+# Activation de la réécriture d'URL
+RewriteEngine On
+
+# Suppression des extensions .html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.html [L]
+
+# Gestion personnalisée des erreurs
+ErrorDocument 404 ./errors/404.html
