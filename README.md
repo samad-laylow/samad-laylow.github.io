@@ -16,8 +16,8 @@ Ce projet est un site web personnel comprenant :
 
 1. **Cloner le dépôt**
    ```bash
-   git clone https://github.com/votre-username/portfolio-project.git
-   cd portfolio-project
+   git clone https://github.com/samad-laylow/samad-laylow.git
+   cd samad-laylow
    ```
 
 2. **Ouvrir le site**
@@ -26,12 +26,12 @@ Ce projet est un site web personnel comprenant :
 
 3. **Accéder au site**
    - Ouvrez votre navigateur
-   - Visitez `http://localhost:5501` ou ca depand sur votre serveur
+   - Visitez `http://localhost:5500` ou ca depand sur votre serveur
 
 ## 🌐 Version en Ligne
 
 Consultez la version en ligne sur GitHub Pages :
-[samad-laylow](https://votre-username.github.io/portfolio-project)
+[samad-laylow](https://samad-laylow.github.io/)
 
 ## 💻 Technologies Utilisées
 
