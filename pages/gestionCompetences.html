@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV/PORTFOLIO ABDESSAMAD AJJA</title>
+    <link rel="stylesheet" href="/assets/styles/gestionCompetences.css" />
+    <link rel="stylesheet" href="/assets/styles/globals.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <span onclick="togglenav()" class="navbtn">
+        <i class="fa fa-bars" id="navicon"></i>
+    </span>
+    <nav id="nav" class="hidden"> 
+        <ul>
+            <li><a href="/index.html">Acceuill</a></li>
+            <li><a href="/pages/cv.html">CV</a></li>
+            <li><a href="/pages/portfolio.html">Portfolio</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a class="selected" href="/pages/gestionCompetences.html">Competences</a></li>
+        </ul>
+        <span class="copyrights">©2025, SAMAD, All rights reserved.</span>
+    </nav>
+ 
+    <!-- End Navbar -->
+
+    <div class="container">
+        <div class="form">
+            <h1>Gestion des compétences</h1>
+            <form id="form">
+                <input type="text" id="nom" placeholder="Nom" required />
+                <textarea name="description" id="description"placeholder="Description"></textarea>
+                <select name="niveau" id="niveau">
+                    <option value="debutant" selected >Débutant</option>
+                    <option value="intermediaire">Intermédiaire</option>
+                    <option value="avance">Avancé</option>
+                </select>
+                <input type="submit" value="Ajouter" onclick="createCompetence()">
+            </form>
+        </div>
+        <div class="list">
+            <h1>Liste des compétences</h1>
+            <ul id="competences">
+                <!-- <li>
+                    <div class="skill-line">
+                        <span class="skill">HTML</span>
+                        <span class="actions">
+                            <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                        </span>
+                    </div>
+                    <div class="skill-line">
+                        <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quidem!</span>
+                        <span class="level">Intermédiaire</span>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="/js/script.js"></script>
+    <script src="/js/gestionCompetences.js"></script>
+</body>
+</html>

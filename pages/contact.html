@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV/PORTFOLIO ABDESSAMAD AJJA</title>
+    <link rel="stylesheet" href="/assets/styles/contact.css" />
+    <link rel="stylesheet" href="/assets/styles/globals.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <span onclick="togglenav()" class="navbtn">
+        <i class="fa fa-bars" id="navicon"></i>
+    </span>
+    <nav id="nav" class="hidden"> 
+        <ul>
+            <li><a href="/index.html">Acceuill</a></li>
+            <li><a href="/pages/cv.html">CV</a></li>
+            <li><a href="/pages/portfolio.html">Portfolio</a></li>
+            <li><a class="selected" href="/pages/contact.html">Contact</a></li>
+            <li><a href="/pages/gestionCompetences.html">Competences</a></li>
+        </ul>
+        <span class="copyrights">©2025, SAMAD, All rights reserved.</span>
+    </nav>
+
+    <!-- End Navbar -->
+
+
+    <div class="contact">
+        <div class="background-circle circle-1"></div>
+        <div class="background-circle circle-2"></div>
+        <div class="background-circle circle-3"></div>
+        <div class="glass-container">
+            <div class="content">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="text">
+                    <h2>Contactez moi</h2>
+                    <p>Vous pouvez me contacter via le formulaire ci-dessous ou en m'envoyant un email à <a href="mailto:abdessamad.ajja00@gmail.com">MOI</a></p>
+                </div>
+                <form action="#" method="POST">
+                    <div class="form">
+                        <input type="text" name="name" placeholder="Nom" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Message" rows="10" required></textarea>
+                        <!-- <input type="submit" value="Envoyer" class="btn"> -->
+                        <button type="submit" class="btn">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
