@@ -8,4 +8,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.html [L]
 
 # Gestion personnalisée des erreurs
-ErrorDocument 404 /pages/errors/404.html
+ErrorDocument 404 pages/errors/404.html
