@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://samad-laylow.github.io/</loc>
+        <lastmod>2025-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://samad-laylow.github.io/pages/cv.html</loc>
+        <lastmod>2025-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://samad-laylow.github.io/pages/portfolio.html</loc>
+        <lastmod>2025-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://samad-laylow.github.io/pages/contact.html</loc>
+        <lastmod>2025-01-14</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://samad-laylow.github.io/pages/gestionCompetences.html</loc>
+        <lastmod>2025-01-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://samad-laylow.github.io/pages/projet3/index.html</loc>
+    </url>
+</urlset>
