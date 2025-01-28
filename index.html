@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="canonical" href="/">
-    
+
+
     <meta property="og:url" content="https://samad-laylow.github.io/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="CV/PORTFOLIO ABDESSAMAD AJJA - TP Integration web" />
@@ -35,9 +36,11 @@
     <meta name="twitter:description" content="TP Integration web - EiSINe - Université de Reims Champagne-Ardenne - Licence professionnelle de Création, Réalisation et Rédaction Web">
     <meta name="twitter:image" content="https://res.cloudinary.com/dfya7tyjw/image/upload/v1738054018/ogthumb_drounu.png">
     <!-- <meta name="pinterest" content="nopin" description="Sorry, you can't save from this website!"> -->
+
+
 </head>
 <body>
-    <dialog open class="dialog">
+    <dialog open class="dialog" role="dialog" aria-labelledby="dialog">
         <h2>NB !!!!</h2>
         <div class="text">
             <p>
@@ -61,12 +64,12 @@
 
     <!-- Navbar -->
 
-    <span onclick="togglenav()" class="navbtn">
-        <i class="fa fa-bars" id="navicon"></i>
+    <span onclick="togglenav()" class="navbtn" aria-label="Menu" role="button">
+        <i class="fa fa-bars" id="navicon" role="icon"></i>
     </span>
-    <nav id="nav" class="hidden"> 
+    <nav id="nav" class="hidden"role="navigation"> 
         <ul>
-            <li><a  class="selected" href="/">Acceuill</a></li>
+            <li><a  class="selected" href="/index">Acceuill</a></li>
             <li><a href="pages/cv">CV</a></li>
             <li><a href="pages/portfolio">Portfolio</a></li>
             <li><a href="pages/contact">Contact</a></li>
@@ -84,10 +87,10 @@
       <div class="background-circle circle-2"></div>
       <div class="background-circle circle-3"></div>
       <div class="glass-container">
-        <div class="image">
+        <div class="image" role="img" aria-label="photo du samad">
             <img src="/assets/images/Untitled__5_-removebg-preview.png" alt="photo du beaugosse XD">
         </div>
-        <div class="content">
+        <div class="content" role="contentinfo" aria-label="presentation">
             <h1>Welcome to My Page</h1>
             <p>
                 Étudiant en licence professionnelle de Création, Réalisation et Rédaction Web à l'EiSINe de
