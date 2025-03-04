@@ -1,13 +1,18 @@
 
-# Activation de la réécriture d'URL
-RewriteEngine On
+RewriteEngine On 
 
-# Suppression des extensions .html
-RewriteCond %{THE_REQUEST} \s/([^\s]+)\.html
-RewriteRule ^ /%1 [R=301,L]
+# Redirect .html URLs to extensionless versions
+RewriteCond %{THE_REQUEST} \s/([^\s]+)\.html [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Redirect /index and /index.html to /
+RewriteCond %{THE_REQUEST} /index(\.html)? [NC]
+RewriteRule ^index(\.html)?$ / [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.html [L]
+
 
 # Gestion personnalisée des erreurs
 ErrorDocument 404 ./pages/errors/404.html
